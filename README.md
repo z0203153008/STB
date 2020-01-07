@@ -6,3 +6,5 @@
 2.bmp2jpg：由于空间有限，把上面的bmp图片改为jpg图片。
 
 3.Boyer_Moore_Search：用于搜索节目名称的功能。
+
+4.quick3way：三项快速排序算法，用于节目名称排序功能。
