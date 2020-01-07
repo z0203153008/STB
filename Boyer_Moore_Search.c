@@ -1,3 +1,4 @@
+//参考：https://subetter.com/algorithm/boyer-moore-algorithm.html
 
 //获取字符串索引处的字符
 static int charAt(char *s, int d)
