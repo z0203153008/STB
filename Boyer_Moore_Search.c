@@ -63,10 +63,10 @@ static int BoyerMooreSearch(char* txt, char* pat, int* right)
 
 int main(void)
 {
-  char *search = "example";
-  char *test_sample = "here is a simple example";
+	char *search = "example";
+	char *test_sample = "here is a simple example";
 	int right[256] = {0};
-  bool match = false;
+	bool match = false;
   
 	for(i = 0; i < g_vodlist_total; i++)
 	{
@@ -74,7 +74,7 @@ int main(void)
 
 		if (BoyerMooreSearch(test_sample, search, right) != -1)
 		{
-      match = true;
+			match = true;
 		}
 	}
 }
